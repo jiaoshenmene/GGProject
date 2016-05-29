@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		8DF098991CFB04F100312B3A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF098981CFB04F100312B3A /* libz.tbd */; };
 		8DF0989B1CFB04FC00312B3A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF0989A1CFB04FC00312B3A /* libbz2.tbd */; };
+		8DF098A11CFB0C8C00312B3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0989E1CFB0C8C00312B3A /* AppDelegate.m */; };
+		8DF098A21CFB0C8C00312B3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF098A01CFB0C8C00312B3A /* ViewController.m */; };
 		8DFE88B61CF8024800849CA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE88B51CF8024800849CA2 /* main.m */; };
-		8DFE88B91CF8024800849CA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE88B81CF8024800849CA2 /* AppDelegate.m */; };
-		8DFE88BC1CF8024800849CA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE88BB1CF8024800849CA2 /* ViewController.m */; };
 		8DFE88BF1CF8024800849CA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE88BD1CF8024800849CA2 /* Main.storyboard */; };
 		8DFE88C11CF8024800849CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE88C01CF8024800849CA2 /* Assets.xcassets */; };
 		8DFE88C41CF8024800849CA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE88C21CF8024800849CA2 /* LaunchScreen.storyboard */; };
@@ -42,12 +42,12 @@
 		356FCEF0DECEE2DE9CC5E328 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF098981CFB04F100312B3A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		8DF0989A1CFB04FC00312B3A /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		8DF0989D1CFB0C8C00312B3A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DF0989E1CFB0C8C00312B3A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DF0989F1CFB0C8C00312B3A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8DF098A01CFB0C8C00312B3A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8DFE88B11CF8024800849CA2 /* GGProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DFE88B51CF8024800849CA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8DFE88B71CF8024800849CA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8DFE88B81CF8024800849CA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8DFE88BA1CF8024800849CA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8DFE88BB1CF8024800849CA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8DFE88BE1CF8024800849CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DFE88C01CF8024800849CA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DFE88C31CF8024800849CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -96,6 +96,17 @@
 			path = DJFrameworks;
 			sourceTree = "<group>";
 		};
+		8DF0989C1CFB0C8C00312B3A /* GGMainProject */ = {
+			isa = PBXGroup;
+			children = (
+				8DF0989D1CFB0C8C00312B3A /* AppDelegate.h */,
+				8DF0989E1CFB0C8C00312B3A /* AppDelegate.m */,
+				8DF0989F1CFB0C8C00312B3A /* ViewController.h */,
+				8DF098A01CFB0C8C00312B3A /* ViewController.m */,
+			);
+			path = GGMainProject;
+			sourceTree = "<group>";
+		};
 		8DFE88A81CF8024800849CA2 = {
 			isa = PBXGroup;
 			children = (
@@ -122,10 +133,7 @@
 		8DFE88B31CF8024800849CA2 /* GGProject */ = {
 			isa = PBXGroup;
 			children = (
-				8DFE88B71CF8024800849CA2 /* AppDelegate.h */,
-				8DFE88B81CF8024800849CA2 /* AppDelegate.m */,
-				8DFE88BA1CF8024800849CA2 /* ViewController.h */,
-				8DFE88BB1CF8024800849CA2 /* ViewController.m */,
+				8DF0989C1CFB0C8C00312B3A /* GGMainProject */,
 				8DFE88BD1CF8024800849CA2 /* Main.storyboard */,
 				8DFE88C01CF8024800849CA2 /* Assets.xcassets */,
 				8DFE88C21CF8024800849CA2 /* LaunchScreen.storyboard */,
@@ -364,8 +372,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DFE88BC1CF8024800849CA2 /* ViewController.m in Sources */,
-				8DFE88B91CF8024800849CA2 /* AppDelegate.m in Sources */,
+				8DF098A21CFB0C8C00312B3A /* ViewController.m in Sources */,
+				8DF098A11CFB0C8C00312B3A /* AppDelegate.m in Sources */,
 				8DFE88B61CF8024800849CA2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
