@@ -24,4 +24,6 @@ Pod::Spec.new do |s|
   # s.osx.exclude_files = 'Classes/ios'  
   # s.public_header_files = 'Classes/**/*.h'  
   s.frameworks = "UIKit" ,"VideoToolbox" ,"QuartzCore" ,"OpenGLES", "MobileCoreServices", "MediaPlayer", "CoreVideo", "CoreMedia", "CoreGraphics",  "AVFoundation", "AudioToolbox"
+  s.dependency 'DJHomeFramework'
+
 end  
