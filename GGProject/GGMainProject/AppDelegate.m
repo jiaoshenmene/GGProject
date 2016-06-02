@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DJMediator.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    UIViewController *rootVC = [DJMediator viewControllerForURL:[NSURL URLWithString:@"productScheme://homevc?getvc=root&username=dujia&password=123"]];
+//    self.window.rootViewController = rootVC;
+    
+//    [[[UIApplication sharedApplication].windows firstObject] setRootViewController:];
     return YES;
 }
 
