@@ -19,9 +19,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 //    UIViewController *rootVC = [DJMediator viewControllerForURL:[NSURL URLWithString:@"productScheme://homevc?getvc=root&username=dujia&password=123"]];
-//    self.window.rootViewController = rootVC;
+    UIViewController *rootVC = [DJMediator viewControllerForURL:[NSURL URLWithString:@"productScheme://home/homevc?username=dujia&password=123"]];
     
-//    [[[UIApplication sharedApplication].windows firstObject] setRootViewController:];
+    self.window.rootViewController = rootVC;
     return YES;
 }
 
